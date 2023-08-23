@@ -1,0 +1,41 @@
+html {
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-a { 
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    /* background-color: rgb(170, 209, 196); */
+
+    
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family:roboto;
+}
+sec {
+    background: rgb(205, 224, 205);
+    padding: 40px;
+    border-radius: 12px;
+    
+}
+ul {
+    padding-left: 0;
+}
+li {
+    list-style: none;
+
+}
+a { 
+    text-decoration: none;
+    color: rgb(83, 81, 78);
+    cursor: pointer;
+} 
+ul li a:hover {
+    text-decoration: underline;
+    transition: all 0.25s ease-in-out;  
+}
+
